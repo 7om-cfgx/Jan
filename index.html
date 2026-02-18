@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amping Message 🥺</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Georgia, serif;
+}
+
+body{
+  background:black;
+  color:white;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.container{
+  border:2px solid white;
+  padding:40px 30px;
+  max-width:600px;
+  width:90%;
+  border-radius:10px;
+}
+
+.top-text{
+  position:absolute;
+  bottom:90px;
+  font-size:14px;
+  opacity:0.8;
+}
+
+.tap-text{
+  position:absolute;
+  bottom:60px;
+  font-size:12px;
+  opacity:0.6;
+}
+
+.letter{
+  display:none;
+  max-height:70vh;
+  overflow-y:auto;
+}
+</style>
+</head>
+
+<body onclick="openLetter()">
+
+<div class="top-text">
+Amping Message 🥺
+</div>
+
+<div class="tap-text">
+e pindot ra maskin asa
+</div>
+
+<div class="container">
+  <div class="letter" id="letter">
+
+    <h1 style="font-size:26px; margin-bottom:20px;">
+    Pwede Rata Mag-istorya? 🥺
+    </h1>
+
+    <p style="font-size:18px; line-height:1.8;">
+    Kabalo ko nasayop ko.
+    Dili ko mag-deny.
+    Dili pud ko mangita’g lusot.
+    Gusto lang ko moangkon
+    kay importante ka para nako.
+
+    Usahay di ko kabalo unsaon pag express,
+    pero dili pasabot ana
+    nga wala koy paki.
+    Ang tinuod?
+    Masuko ko sa akong kaugalingon
+    kung ikaw akong masakitan.
+
+    Dili ko ganahan nga magkalayo ta
+    tungod lang sa pride.
+    Kung kinahanglan ko mo adjust,
+    mo adjust ko.
+    Kung kinahanglan ko mohilom ug maminaw,
+    maminaw ko.
+
+    Dili tika suyuon kay bored ko.
+    Dili sad kay hadlok ko mag-inusara.
+    Gisuya tika kay gusto tika.
+    Simple pero tinuod.
+
+    Ikaw tong klase sa babae
+    nga kung dili okay,
+    murag naay kulang sa akong adlaw.
+    Murag naay WiFi pero walay signal —
+    naa pero dili stable. 😭
+
+    Kung nasuko ka,
+    sabtan ra nako.
+    Pero unta dili nimo sirad-an ang pultahan.
+    Maskin gamay lang nga abli,
+    maghulat ko dira.
+    Dili para mangaway,
+    kundi para magpabilin.
+
+    Dili ko perfect.
+    Pero willing ko mo improve.
+    Dili lang kay para ma-okay ta,
+    kundi para ma-deserve tika.
+
+    Kung pwede pa,
+    istorya ta.
+    Ayaw sa ko biyae.
+    Kay sa tinuod lang,
+    ikaw ra gihapon akong pilion.
+
+    Ngiti daw gamay.
+    Maski trial version lang. 🥺
+    </p>
+
+  </div>
+</div>
+
+<script>
+function openLetter(){
+  document.querySelector(".top-text").style.display = "none";
+  document.querySelector(".tap-text").style.display = "none";
+  document.getElementById("letter").style.display = "block";
+}
+</script>
+
+</body>
+</html>
